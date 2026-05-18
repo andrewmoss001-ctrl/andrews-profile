@@ -1,9 +1,11 @@
 @import "tailwindcss";
+@plugin "daisyui"; /* <-- Added: Core DaisyUI engine */
+
 @plugin "daisyui/theme" {
   name: "abyss";
   default: true;
   prefersdark: true;
-  color-scheme: "light";
+  color-scheme: "dark"; /* <-- Fixed: Set to dark to match abyss values */
   --color-base-100: oklch(37% 0 0);
   --color-base-200: oklch(26% 0 0);
   --color-base-300: oklch(50% 0.118 165.612);
