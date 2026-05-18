@@ -1,15 +1,12 @@
 import './App.css'
-import Header from './header.jsx'
-import Body from './body.jsx'
-import Contact from './contact.jsx'
-import Footer from './footer.jsx'
+import Header from './header'
+import Body from './body'
+import Contact from './contact'
+import Footer from './footer'
 
 import "tailwindcss";
 
-
 function App() {
-  
-
   return (
     <>
       <Header/>
