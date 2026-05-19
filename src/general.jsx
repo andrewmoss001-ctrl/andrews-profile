@@ -83,9 +83,6 @@ const General = () => {
         </div>
       </div>
 
-      <p className="text-3xl font-bold text-neutral-content p-4">
-        Skill Set
-      </p>
 
       {/* Progress Bars Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
