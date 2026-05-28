@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="hero bg-base-300 min-h-[50vh] w-full max-w-full">
-        <div className="hero-content flex-col lg:flex-row max-w-full gap-8 p-6 lg:p-0 lg:my-10">
+        <div className="hero-content flex-col lg:flex-row max-w-full gap-8 p-8 lg:p-6 md:my-10">
           {/* Profile Picture */}
           <img
             src={img}
@@ -49,7 +49,7 @@ const Header = () => {
             </p>
 
             {/* Contact Links Grid */}
-            <div className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center sm:justify-start pt-4 gap-y-3 sm:gap-x-6 text-sm text-base-content opacity-60 w-full max-w-2xl">
+            <div className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center lg:justify-start pt-4 gap-y-3 sm:gap-x-6 text-sm text-base-content opacity-60 w-full max-w-2xl">
               <a
                 href="tel:+27796736862"
                 className="flex items-center gap-2 hover:text-primary transition-colors whitespace-nowrap"

@@ -15,8 +15,6 @@
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  /* Updated to use DaisyUI's base-300 variable for the border */
-  border-inline: 1px solid var(--color-base-300);
   min-height: 100svh;
   display: flex;
   flex-direction: column;
@@ -88,4 +86,8 @@ code {
   padding: 4px 8px;
   /* Updated to use DaisyUI's base-300 for the code block background */
   background: var(--color-base-300);
+}
+.timeline-box {
+  border: 0.150rem solid;
+  border-color: var(--color-base-300);
 }
