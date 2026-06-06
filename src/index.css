@@ -90,4 +90,5 @@ code {
 .timeline-box {
   border: 0.150rem solid;
   border-color: var(--color-base-300);
+  text-align: left;
 }

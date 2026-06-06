@@ -9,12 +9,12 @@ const General = () => {
       </p>
 
       {/* Bio Cards Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 p-4">
+      <div className="grid grid-cols-2 gap-4 p-4">
         {/* Nationality */}
         <div className="card card-border bg-base-100">
           <div className="card-body p-4 text-left">
             <div className="flex justify-between items-center w-full gap-2 mb-1">
-              <h3 className="card-title text-sm sm:text-xl md:text-base lg:text-sm xl:text-base font-black break-words whitespace-normal">
+              <h3 className="card-title text-sm sm:text-xl md:text-base lg:text-sm xl:text-xl font-bold break-words whitespace-normal">
                 Nationality
               </h3>
               {/* Globe Icon */}
@@ -22,7 +22,7 @@ const General = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-6 sm:size-8 lg:size-4 inline-block text-neutral-content shrink-0"
+                className="size-6 sm:size-8 lg:size-6 inline-block text-neutral-content shrink-0"
               >
                 <path
                   fillRule="evenodd"
@@ -39,7 +39,7 @@ const General = () => {
         <div className="card card-border bg-base-100">
           <div className="card-body p-4 text-left">
             <div className="flex justify-between items-center w-full gap-2 mb-1">
-              <h3 className="card-title text-sm sm:text-xl md:text-base lg:text-sm xl:text-base font-black break-words whitespace-normal">
+              <h3 className="card-title text-sm sm:text-xl md:text-base lg:text-sm xl:text-xl font-bold break-words whitespace-normal">
                 DOB
               </h3>
               {/* Calendar Icon */}
@@ -47,7 +47,7 @@ const General = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-6 sm:size-8 lg:size-4 inline-block text-neutral-content shrink-0"
+                className="size-6 sm:size-8 lg:size-6 inline-block text-neutral-content shrink-0"
               >
                 <path d="M12.75 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM7.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM8.25 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM9.75 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM10.5 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM12.75 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM14.25 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 13.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" />
                 <path
@@ -65,7 +65,7 @@ const General = () => {
         <div className="card card-border bg-base-100">
           <div className="card-body p-4 text-left">
             <div className="flex justify-between items-center w-full gap-2 mb-1">
-              <h3 className="card-title text-sm sm:text-xl md:text-base lg:text-sm xl:text-base font-black leading-tight break-words whitespace-normal">
+              <h3 className="card-title text-sm sm:text-xl md:text-base lg:text-sm xl:text-xl font-bold leading-tight break-words whitespace-normal">
                 Spoken Languages
               </h3>
               {/* Chat Bubble Icon */}
@@ -73,7 +73,7 @@ const General = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-6 sm:size-8 lg:size-4 inline-block text-neutral-content shrink-0"
+                className="size-6 sm:size-8 lg:size-6 inline-block text-neutral-content shrink-0"
               >
                 <path
                   fillRule="evenodd"
@@ -90,7 +90,7 @@ const General = () => {
         <div className="card card-border bg-base-100">
           <div className="card-body p-4 text-left">
             <div className="flex justify-between items-center w-full gap-2 mb-1">
-              <h3 className="card-title text-sm sm:text-xl md:text-base lg:text-sm xl:text-base font-black break-words whitespace-normal">
+              <h3 className="card-title text-sm sm:text-xl md:text-base lg:text-sm xl:text-xl font-bold break-words whitespace-normal">
                 Schooling
               </h3>
               {/* Building/School Icon */}
@@ -98,7 +98,7 @@ const General = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-6 sm:size-8 lg:size-4 inline-block text-neutral-content shrink-0"
+                className="size-6 sm:size-8 lg:size-6 inline-block text-neutral-content shrink-0"
               >
                 <path d="M11.584 2.376a.75.75 0 0 1 .832 0l9 6a.75.75 0 1 1-.832 1.248L12 3.901 3.416 9.624a.75.75 0 0 1-.832-1.248l9-6Z" />
                 <path
@@ -121,7 +121,7 @@ const General = () => {
         <div className="card card-border bg-base-100">
           <div className="card-body p-4 text-left">
             <div className="flex justify-between items-center w-full gap-2 mb-1">
-              <h3 className="card-title text-sm sm:text-xl md:text-base lg:text-sm xl:text-base font-black leading-tight break-words whitespace-normal">
+              <h3 className="card-title text-sm sm:text-xl md:text-base lg:text-sm xl:text-xl font-bold leading-tight break-words whitespace-normal">
                 Tertiary Education
               </h3>
               {/* Graduation Cap Icon */}
@@ -129,7 +129,7 @@ const General = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-6 sm:size-8 lg:size-4 inline-block text-neutral-content shrink-0"
+                className="size-6 sm:size-8 lg:size-6 inline-block text-neutral-content shrink-0"
               >
                 <path d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
                 <path d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z" />
@@ -148,7 +148,7 @@ const General = () => {
         <div className="card card-border bg-base-100">
           <div className="card-body p-4 text-left">
             <div className="flex justify-between items-center w-full gap-2 mb-1">
-              <h3 className="card-title text-sm sm:text-xl md:text-base font-black break-words whitespace-normal">
+              <h3 className="card-title text-sm sm:text-xl md:text-base xl:text-xl font-bold break-words whitespace-normal">
                 Based
               </h3>
               {/* Map Pin Icon */}
@@ -156,7 +156,7 @@ const General = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-6 sm:size-8 lg:size-4 inline-block text-neutral-content shrink-0"
+                className="size-6 sm:size-8 lg:size-6 inline-block text-neutral-content shrink-0"
               >
                 <path
                   fillRule="evenodd"
@@ -173,13 +173,15 @@ const General = () => {
           </div>
         </div>
       </div>
-      <p className="text-3xl font-bold text-neutral-content p-4 md:pt-9">Skill Set</p>
+      <p className="text-3xl font-bold text-neutral-content p-4 md:pt-9">
+        Skill Set
+      </p>
       {/* Progress Bars Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
         {/* ADOBE CC */}
         <div className="card card-border bg-base-100 py-1">
           <div className="card-body p-4 gap-4">
-            <div className="flex justify-between items-center w-full gap-2" >
+            <div className="flex justify-between items-center w-full gap-2">
               <h3 className="card-title text-2xl md:text-sm lg:text-xs xl:text-sm font-bold break-words whitespace-normal">
                 ADOBE CC
               </h3>
@@ -188,7 +190,7 @@ const General = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-15 md:size-10 lg:size-3 xl:size-5 inline-block text-accent shrink-0"
+                className="size-15 md:size-10 lg:size-6 inline-block text-accent shrink-0"
               >
                 <path d="M5.566 4.657A4.505 4.505 0 0 1 6.75 4.5h10.5c.41 0 .806.055 1.183.157A3 3 0 0 0 15.75 3h-7.5a3 3 0 0 0-2.684 1.657ZM2.25 12a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3v-6ZM5.25 7.5c-.41 0-.806.055-1.184.157A3 3 0 0 1 6.75 6h10.5a3 3 0 0 1 2.683 1.657A4.505 4.505 0 0 0 18.75 7.5H5.25Z" />
               </svg>
@@ -213,11 +215,11 @@ const General = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-15 md:size-10 lg:size-3 xl:size-5 inline-block text-accent shrink-0"
+                className="size-15 md:size-10 lg:size-6 inline-block text-accent shrink-0"
               >
                 <path
                   fillRule="evenodd"
-                  d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6Zm14.25 6a.75.75 0 0 1-.22.53l-2.25 2.25a.75.75 0 1 1-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 1 1 1.06-1.06l2.25 2.25c.141.14.22.331.22.53Zm-10.28-.53a.75.75 0 0 0 0 1.06l2.25 2.25a.75.75 0 1 0 1.06-1.06L8.56 12l1.72-1.72a.75.75 0 1 0-1.06-1.06l-2.25 2.25Z"
+                  d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6Zm14.25 6a.75.75 0 0 1-.22.53l-2.25 2.25a.75.75 0 1 1-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 1 1 1.06-1.06l2.25 2.25c.141.14.22.331.22.53Zm-10.28-.53a.75.75 0 0 0 0 1.06l2.25 2.25a.75.75 0 0 0 1.06-1.06L8.56 12l1.72-1.72a.75.75 0 1 0-1.06-1.06l-2.25 2.25a.75.75 0 0 0-.22.53Z"
                   clipRule="evenodd"
                 />
               </svg>
@@ -241,7 +243,7 @@ const General = () => {
               <svg
                 role="img"
                 viewBox="0 0 24 24"
-                className="size-15 md:size-10 lg:size-3 xl:size-5 inline-block text-accent shrink-0"
+                className="size-15 md:size-10 lg:size-6 inline-block text-accent shrink-0"
                 fill="currentColor"
               >
                 <title>React</title>
@@ -268,7 +270,7 @@ const General = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-15 md:size-10 lg:size-3 xl:size-5 inline-block text-accent shrink-0"
+                className="size-15 md:size-10 lg:size-6 inline-block text-accent shrink-0"
               >
                 <path
                   fillRule="evenodd"
@@ -279,34 +281,7 @@ const General = () => {
             </div>
             <progress
               className="progress progress-accent w-full"
-              value="50"
-              max="100"
-            ></progress>
-          </div>
-        </div>
-
-        {/* CMS SYSTEMS */}
-        <div className="card card-border bg-base-100 py-1">
-          <div className="card-body p-4 gap-4">
-            <div className="flex justify-between items-center w-full gap-2">
-              <h3 className="card-title text-2xl md:text-sm lg:text-xs xl:text-sm font-bold break-words whitespace-normal">
-                CMS SYSTEMS
-              </h3>
-              {/* Server/Database Icon */}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="size-15 md:size-10 lg:size-3 xl:size-5 inline-block text-accent shrink-0"
-              >
-                <path d="M11.644 1.59a.75.75 0 0 1 .712 0l9.75 5.25a.75.75 0 0 1 0 1.32l-9.75 5.25a.75.75 0 0 1-.712 0l-9.75-5.25a.75.75 0 0 1 0-1.32l9.75-5.25Z" />
-                <path d="m3.265 10.602 7.668 4.129a2.25 2.25 0 0 0 2.134 0l7.668-4.13 1.37.739a.75.75 0 0 1 0 1.32l-9.75 5.25a.75.75 0 0 1-.71 0l-9.75-5.25a.75.75 0 0 1 0-1.32l1.37-.738Z" />
-                <path d="m10.933 19.231-7.668-4.13-1.37.739a.75.75 0 0 0 0 1.32l9.75 5.25c.221.12.489.12.71 0l9.75-5.25a.75.75 0 0 0 0-1.32l-1.37-.738-7.668 4.13a2.25 2.25 0 0 1-2.134-.001Z" />
-              </svg>
-            </div>
-            <progress
-              className="progress progress-accent w-full"
-              value="80"
+              value="75"
               max="100"
             ></progress>
           </div>
@@ -324,7 +299,7 @@ const General = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-15 md:size-10 lg:size-3 xl:size-5 inline-block text-accent shrink-0"
+                className="size-15 md:size-10 lg:size-6 inline-block text-accent shrink-0"
               >
                 <path d="M5.507 4.048A3 3 0 0 1 7.785 3h8.43a3 3 0 0 1 2.278 1.048l1.722 2.008A4.533 4.533 0 0 0 19.5 6h-15c-.243 0-.482.02-.715.056l1.722-2.008Z" />
                 <path
@@ -354,7 +329,7 @@ const General = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-15 md:size-10 lg:size-3 xl:size-5 inline-block text-accent shrink-0"
+                className="size-15 md:size-10 lg:size-6 inline-block text-accent shrink-0"
               >
                 <path
                   fillRule="evenodd"
@@ -388,7 +363,7 @@ const General = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-15 md:size-10 lg:size-3 xl:size-5 inline-block text-accent shrink-0"
+                className="size-15 md:size-10 lg:size-6 inline-block text-accent shrink-0"
               >
                 <path
                   fillRule="evenodd"
@@ -417,7 +392,7 @@ const General = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-15 md:size-10 lg:size-3 xl:size-5 inline-block text-accent shrink-0"
+                className="size-15 md:size-10 lg:size-6 inline-block text-accent shrink-0"
               >
                 <path
                   fillRule="evenodd"

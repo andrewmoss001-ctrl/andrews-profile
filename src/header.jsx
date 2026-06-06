@@ -33,8 +33,8 @@ const Header = () => {
           />
 
           {/* Content Block */}
-          <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
-            <h1 className="text-4xl lg:text-5xl font-bold text-neutral-content">
+          <div className="flex flex-col items-start text-left">
+            <h1 className="text-4xl lg:text-5xl text-center font-bold text-neutral-content">
               I'm Andrew Moss.
             </h1>
 
@@ -49,7 +49,7 @@ const Header = () => {
             </p>
 
             {/* Contact Links Grid */}
-            <div className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center lg:justify-start pt-4 gap-y-3 sm:gap-x-6 text-sm text-base-content opacity-60 w-full max-w-2xl">
+            <div className="flex flex-col sm:flex-row sm:flex-wrap items-start justify-start pt-4 gap-y-3 sm:gap-x-6 text-sm text-base-content opacity-60 w-full max-w-2xl">
               <a
                 href="tel:+27796736862"
                 className="flex items-center gap-2 hover:text-primary transition-colors whitespace-nowrap"

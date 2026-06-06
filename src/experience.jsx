@@ -9,7 +9,7 @@ const Experience = () => {
         
         {/* SKYE MEDIA CORP */}
         <li className="grid-cols-[35%_auto_1fr] md:grid-cols-[20%_auto_1fr]">
-          <div className="timeline-start text-base lg:text-xs font-semibold opacity-60 text-right pr-2">
+          <div className="timeline-start text-base lg:text-sm font-semibold opacity-60 text-right pr-2">
             April 2021 - Current
           </div>
           <div className="timeline-middle">
@@ -26,11 +26,11 @@ const Experience = () => {
               />
             </svg>
           </div>
-          <div className="timeline-end timeline-box w-full p-4">
-            <p className="text-base md:text-lg font-bold">SKYE MEDIA CORP</p>
-            <p className="text-sm lg:leading-6">
-              I work as a Senior Graphic & Web Designer. My responsibilities
-              include: creating new sites; maintaining client websites,
+          <div className="timeline-end timeline-box w-full p-6">
+            <p className="text-base md:text-lg font-bold uppercase">Senior Web Designer & Frontend Developer</p>
+            <p className="text-base opacity-50 md:text-lg font-semibold">SKYE MEDIA CORP</p>
+            <p className="text-sm  lg:leading-6  pt-3 pt-3">
+              My responsibilities include: creating new sites; maintaining client websites,
               promos, and games; designing components and interfaces; and
               implementing marketing material.
             </p>
@@ -41,7 +41,7 @@ const Experience = () => {
         {/* I LIVE IT - AGENCY */}
         <li className="grid-cols-[35%_auto_1fr] md:grid-cols-[20%_auto_1fr]">
           <hr />
-          <div className="timeline-start text-base lg:text-xs font-semibold opacity-60 text-right pr-2">
+          <div className="timeline-start text-base lg:text-sm font-semibold opacity-60 text-right pr-2">
             September 2017 - December 2020
           </div>
           <div className="timeline-middle">
@@ -58,11 +58,11 @@ const Experience = () => {
               />
             </svg>
           </div>
-          <div className="timeline-end timeline-box w-full p-4">
-            <p className="text-base md:text-lg font-bold">I LIVE IT - AGENCY</p>
-            <p className="text-sm lg:leading-6">
-              I worked as a General Graphic Designer. My responsibilities included:
-              UX/UI design, implementing advertising emailers, creating MMS/video
+          <div className="timeline-end timeline-box w-full p-6">
+            <p className="text-base md:text-lg font-bold uppercase">UX/UI Designer</p>
+            <p className="text-base opacity-50 md:text-lg font-semibold">I LIVE IT - AGENCY</p>
+            <p className="text-sm lg:leading-6  pt-3">
+              My responsibilities included: UX/UI design, implementing advertising emailers, creating MMS/video
               animations, and designing client invoicing material.
             </p>
           </div>
@@ -72,7 +72,7 @@ const Experience = () => {
         {/* INCUBETA HOLDINGS */}
         <li className="grid-cols-[35%_auto_1fr] md:grid-cols-[20%_auto_1fr]">
           <hr />
-          <div className="timeline-start text-base lg:text-xs font-semibold opacity-60 text-right pr-2">
+          <div className="timeline-start text-base lg:text-sm font-meduim opacity-60 text-right pr-2">
             August 2014 - September 2017
           </div>
           <div className="timeline-middle">
@@ -89,11 +89,11 @@ const Experience = () => {
               />
             </svg>
           </div>
-          <div className="timeline-end timeline-box w-full p-4">
-            <p className="text-base md:text-lg font-bold">INCUBETA HOLDINGS</p>
-            <p className="text-sm lg:leading-6">
-              I worked as a Web Designer. My responsibilities included: website
-              creation and management, SEO/Google tracking, and designing online
+          <div className="timeline-end timeline-box w-full p-6">
+            <p className="text-base md:text-lg font-bold uppercase">Web Designer</p>
+            <p className="text-base opacity-50 md:text-lg font-semibold">INCUBETA HOLDINGS</p>
+            <p className="text-sm lg:leading-6 pt-3">
+              My responsibilities included: website creation and management, SEO/Google tracking, and designing online
               marketing material.
             </p>
           </div>
@@ -103,7 +103,7 @@ const Experience = () => {
         {/* JTS CAR SOUND & SECURITY */}
         <li className="grid-cols-[35%_auto_1fr] md:grid-cols-[20%_auto_1fr]">
           <hr />
-          <div className="timeline-start text-base lg:text-xs font-semibold opacity-60 text-right pr-2">
+          <div className="timeline-start text-base lg:text-sm font-meduim opacity-60 text-right pr-2">
             March 2013 - April 2014
           </div>
           <div className="timeline-middle">
@@ -120,11 +120,11 @@ const Experience = () => {
               />
             </svg>
           </div>
-          <div className="timeline-end timeline-box w-full p-4">
-            <p className="text-base md:text-lg font-bold">JTS CAR SOUND & SECURITY</p>
-            <p className="text-sm lg:leading-6">
-              I worked as a Floor and Operations Manager. My responsibilities included:
-              driving sales, managing staff, and conducting insurance inspections.
+          <div className="timeline-end timeline-box w-full p-6">
+            <p className="text-base md:text-lg font-bold uppercase">Floor & Operations Manager</p>
+            <p className="text-base opacity-50 md:text-lg font-semibold">JTS CAR SOUND & SECURITY</p>
+            <p className="text-sm lg:leading-6  pt-3">
+             My responsibilities included: driving sales, managing staff, and conducting insurance inspections.
             </p>
           </div>
           <hr />
@@ -133,7 +133,7 @@ const Experience = () => {
         {/* M2 PARTITIONS */}
         <li className="grid-cols-[35%_auto_1fr] md:grid-cols-[20%_auto_1fr]">
           <hr />
-          <div className="timeline-start text-base lg:text-xs font-semibold opacity-60 text-right pr-2">
+          <div className="timeline-start text-base lg:text-sm font-semibold opacity-60 text-right pr-2">
             August 2012 - March 2013
           </div>
           <div className="timeline-middle">
@@ -150,11 +150,11 @@ const Experience = () => {
               />
             </svg>
           </div>
-          <div className="timeline-end timeline-box w-full p-4">
-            <p className="text-base md:text-lg font-bold">M2 PARTITIONS</p>
-            <p className="text-sm lg:leading-6">
-              I worked as a Site Foreman & General Manager. My responsibilities included:
-              quality assurance, managing staff, and handling client expectations.
+          <div className="timeline-end timeline-box w-full p-6">
+            <p className="text-base md:text-lg font-bold uppercase">Site Foreman & General Manager</p>
+            <p className="text-base opacity-50 md:text-lg font-semibold">M2 PARTITIONS</p>
+            <p className="text-sm lg:leading-6 pt-3">
+              My responsibilities included: quality assurance, managing staff, and handling client expectations.
             </p>
           </div>
         </li>
