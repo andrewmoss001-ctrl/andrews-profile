@@ -21,6 +21,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: var(--sans);
@@ -92,3 +96,29 @@ code {
   border-color: var(--color-base-300);
   text-align: left;
 }
+.card {
+  border: 2px solid;
+  border-color: var(--color-base-100);
+  background-color: var(--color-base-content);
+  color: var(--color-base-100);
+}
+.project-card {
+  border: 2px solid;
+  border-color: var(--color-base-content);
+  text-align: left;
+  gap: 1.5rem;
+}
+
+figure {
+  min-height: 300px;
+}
+
+.btn {
+  border: 2px solid;
+  box-shadow: 0px none;
+  border-color: var(--color-base-content);
+}
+/* .skillset .card {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+} 

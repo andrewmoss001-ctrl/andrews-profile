@@ -23,22 +23,22 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="hero bg-base-300 min-h-[50vh] w-full max-w-full">
-        <div className="hero-content flex-col lg:flex-row max-w-full gap-8 p-8 lg:p-6 md:my-10">
+      <div className="hero bg-base-content min-h-[100vh] w-full max-w-full space-around">
+        <div className="hero-content flex-col lg:flex-row max-w-full gap-8 p-8 lg:pb-15 lg:pt-5 md:my-10">
           {/* Profile Picture */}
           <img
             src={img}
             alt="Andrew Moss"
-            className="w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-full shadow-2xl border-3 border-primary object-cover"
+            className="w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-full shadow-2xl border-6 border-secondary object-cover"
           />
 
           {/* Content Block */}
           <div className="flex flex-col items-start text-left">
-            <h1 className="text-4xl lg:text-5xl text-center font-bold text-neutral-content">
+            <h1 className="text-4xl my-custom-font uppercase lg:text-5xlfont-bold text-secondary">
               I'm Andrew Moss.
             </h1>
 
-            <p className="py-4 text-neutral-content max-w-2xl text-base leading-relaxed">
+            <p className="py-4 general-font text-base-100 max-w-4xl text-xl leading text-left -relaxed">
               Senior Graphic & Web Designer with a distinguished {timeString}{" "}
               track record in both the advertising and gaming industries.
               Possessing a comprehensive skillset encompassing advertising
@@ -49,10 +49,10 @@ const Header = () => {
             </p>
 
             {/* Contact Links Grid */}
-            <div className="flex flex-col sm:flex-row sm:flex-wrap items-start justify-start pt-4 gap-y-3 sm:gap-x-6 text-sm text-base-content opacity-60 w-full max-w-2xl">
+            <div className="flex flex-col sm:flex-row sm:flex-wrap space-between pt-4 gap-y-3 sm:gap-x-6 text-base text-secondary-content opacity-100 w-full max-w-4xl my-custom-font uppercase">
               <a
                 href="tel:+27796736862"
-                className="flex items-center gap-2 hover:text-primary transition-colors whitespace-nowrap"
+                className="flex items-center gap-2 hover:text-secondary hover:opacity-100 transition-colors whitespace-nowrap"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ const Header = () => {
 
               <a
                 href="mailto:andrewmoss001@gmail.com"
-                className="flex items-center gap-2 hover:text-primary transition-colors"
+                className="flex items-center gap-2 hover:text-secondary hover:opacity-100 transition-colors"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +92,7 @@ const Header = () => {
                 andrewmoss001@gmail.com
               </a>
 
-              <span className="flex items-center gap-2">
+              <span className="flex items-center gap-2 hover:text-secondary hover:opacity-100 transition-all">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -112,8 +112,27 @@ const Header = () => {
                     d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
                   />
                 </svg>
-                Cape Town, South Africa
+                <p className="my-custom-font">Cape Town, South Africa</p>
               </span>
+            </div>
+            <div className="flex items-center text-4xl gap-4 mt-6 my-custom-font uppercase font-bold text-center m-auto">
+              <a
+                href="#experience"
+                className="inline-flex group transition-colors duration-300 ease-in-out"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="size-14 text-secondary transition-colors duration-300 ease-in-out group-hover:text-secondary-content"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M2 2.75c0 .414.336.75.75.75h6.5v7.94l-.97-.97a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.06 0l2.25-2.25a.75.75 0 1 0-1.06-1.06l-.97.97V2.75A.75.75 0 0 0 10 2H2.75a.75.75 0 0 0-.75.75Z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </a>
             </div>
           </div>
         </div>
