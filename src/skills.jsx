@@ -5,7 +5,7 @@ import "daisyui";
 const Skills = () => {
   const [isCertOpen, setIsCertOpen] = useState(false);
   return (
-    <div className="general w-full">
+    <div className="general py-15 w-full">
       <p className="text-4xl my-custom-font uppercase font-bold text-base-100 p-4">
         Skill Set
       </p>
