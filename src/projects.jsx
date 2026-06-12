@@ -18,7 +18,8 @@ const Projects = ({ className = "" }) => {
         Recent Accomplishments
       </p>
       <div className="flex flex-col md:flex-row gap-6 justify-center">
-        <div className="card bg-base-content w-96 shadow-sm">
+        <div className="card bg-base-content w-[95%] sm:m-0 m-auto shadow-sm">
+
           <figure>
             <img
               src="https://service.betya.com/uploads/media/BTJ/BetyaLogo.svg"
@@ -53,7 +54,7 @@ const Projects = ({ className = "" }) => {
             </div>
           </div>
         </div>
-        <div className="card bg-base-200 w-96 shadow-sm">
+        <div className="card bg-base-content w-[95%] sm:m-0 m-auto shadow-sm">
           <figure className="min-h-63 p-4 bg-base-content">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +130,7 @@ const Projects = ({ className = "" }) => {
             </div>
           </div>
         </div>
-        <div className="card bg-base-200 w-96 shadow-sm">
+          <div className="card bg-base-content w-[95%] sm:m-0 m-auto shadow-sm">
           <figure className="min-h-60 p-4 bg-base-content">
             <img
               src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%20viewBox='0%200%2079%2015'%3e%3c!--%20Generator:%20Adobe%20Illustrator%2029.7.1,%20SVG%20Export%20Plug-In%20.%20SVG%20Version:%202.1.1%20Build%208)%20--%3e%3cdefs%3e%3cstyle%3e%20.st0%20{%20fill:%20%23dcdcdc;%20}%20%3c/style%3e%3c/defs%3e%3cpath%20class='st0'%20d='M8.8,14.8H1.2v-3.8h6.9c.5,0,.9-.4.9-1V3.4c0-1.5-1-2.7-2.5-2.8v-.3h7.1v9.6c0,3.1-1.8,4.9-4.9,4.9h0Z'/%3e%3cpath%20class='st0'%20d='M28.6.3c4.3,0,8.3,2.6,8.3,7.2s-4,7.2-8.3,7.2h-4.7c-4.3,0-8.3-2.6-8.3-7.2S19.5.3,23.8.3h4.8ZM27.7,11c2.1,0,4-1.2,4-3.5s-1.9-3.5-4-3.5h-3.1c-2.1,0-4,1.2-4,3.5s1.9,3.5,4,3.5h3.1Z'/%3e%3cpath%20class='st0'%20d='M39,3.4c0-2.6-2.4-2.8-2.4-2.8v-.3h7.1v5.7L49.1.3h6.1l-7,6.6h0l8.2,7.8h-6.4l-6.4-6.6v6.6h-4.6V3.4h0Z'/%3e%3cpath%20class='st0'%20d='M57.2,14.7l5.4-11.1c.7-1.3.4-3-1.7-3s0,0,0,0v-.3h9.9l7.1,14.4h-5.5l-1.2-2.9h-7.4l-1.3,2.9s-5.3,0-5.3,0ZM67.6,3.6h-.2l-2.2,4.9h4.5s-2.1-4.9-2.1-4.9Z'/%3e%3c/svg%3e"

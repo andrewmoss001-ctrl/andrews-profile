@@ -39,7 +39,7 @@ const Header = () => {
             </h1>
 
             <p className="py-4 general-font text-base-100 max-w-4xl text-xl leading text-left -relaxed">
-              Senior Graphic & Web Designer with a distinguished {timeString}{" "}
+              Senior Graphic/Web Designer and FrontEnd Developer with a distinguished {timeString}{" "}
               track record in both the advertising and gaming industries.
               Possessing a comprehensive skillset encompassing advertising
               campaign development, engaging web and graphic design solutions,
