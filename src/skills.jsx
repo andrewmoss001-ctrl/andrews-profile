@@ -10,12 +10,12 @@ const Skills = () => {
         Skill Set
       </p>
       {/* Progress Bars Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-4 skillset">
+      <div className="grid grid-cols-2 gap-6 p-4 skillset">
         {/* ADOBE CC */}
         <div className="card card-border bg-base-200 py-1">
           <div className="card-body p-4 gap-4">
-            <div className="flex justify-between items-center w-full gap-2">
-              <h3 className="card-title my-custom-font text-2xl md:text-xl lg:text-base xl:text-2xl font-bold break-words whitespace-normal">
+            <div className="flex flex-col md:flex-row justify-between items-center w-full gap-2">
+              <h3 className="card-title my-custom-font text-xl lg:text-base xl:text-2xl font-bold break-words whitespace-normal">
                 ADOBE CC
               </h3>
               {/* Vector/Pen Tool Icon */}
@@ -23,7 +23,7 @@ const Skills = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-15 md:size-10 lg:size-6 inline-block text-base-100 shrink-0"
+                className="size-10 lg:size-6 inline-block text-base-100 shrink-0"
               >
                 <path d="M5.566 4.657A4.505 4.505 0 0 1 6.75 4.5h10.5c.41 0 .806.055 1.183.157A3 3 0 0 0 15.75 3h-7.5a3 3 0 0 0-2.684 1.657ZM2.25 12a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3v-6ZM5.25 7.5c-.41 0-.806.055-1.184.157A3 3 0 0 1 6.75 6h10.5a3 3 0 0 1 2.683 1.657A4.505 4.505 0 0 0 18.75 7.5H5.25Z" />
               </svg>
@@ -39,8 +39,8 @@ const Skills = () => {
         {/* HTML5/CSS3 */}
         <div className="card card-border bg-base-200 py-1">
           <div className="card-body p-4 gap-4">
-            <div className="flex justify-between items-center w-full gap-2">
-              <h3 className="card-title my-custom-font text-2xl md:text-xl lg:text-base xl:text-2xl font-bold break-words whitespace-normal">
+            <div className="flex flex-col md:flex-row justify-between items-center w-full gap-2">
+              <h3 className="card-title my-custom-font text-xl lg:text-base xl:text-2xl font-bold break-words whitespace-normal">
                 HTML5/CSS3
               </h3>
               {/* Code Brackets Icon */}
@@ -48,7 +48,7 @@ const Skills = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-15 md:size-10 lg:size-6 inline-block text-base-100 shrink-0"
+                className="size-10 lg:size-6 inline-block text-base-100 shrink-0"
               >
                 <path
                   fillRule="evenodd"
@@ -68,15 +68,15 @@ const Skills = () => {
         {/* REACT */}
         <div className="card card-border bg-base-200 py-1">
           <div className="card-body p-4 gap-4">
-            <div className="flex justify-between items-center w-full gap-2">
-              <h3 className="card-title my-custom-font text-2xl md:text-xl lg:text-base xl:text-2xl font-bold break-words whitespace-normal">
+            <div className="flex flex-col md:flex-row justify-between items-center w-full gap-2">
+              <h3 className="card-title my-custom-font text-xl lg:text-base xl:text-2xl font-bold break-words whitespace-normal">
                 REACT
               </h3>
               {/* Swatches / Atomic Hub Icon */}
               <svg
                 role="img"
                 viewBox="0 0 24 24"
-                className="size-15 md:size-10 lg:size-6 inline-block text-base-100 shrink-0"
+                className="size-10 lg:size-6 inline-block text-base-100 shrink-0"
                 fill="currentColor"
               >
                 <title>React</title>
@@ -94,8 +94,8 @@ const Skills = () => {
         {/* JS */}
         <div className="card card-border bg-base-200 py-1">
           <div className="card-body p-4 gap-4">
-            <div className="flex justify-between items-center w-full gap-2">
-              <h3 className="card-title my-custom-font text-2xl md:text-xl lg:text-base xl:text-2xl font-bold break-words whitespace-normal">
+            <div className="flex flex-col md:flex-row justify-between items-center w-full gap-2">
+              <h3 className="card-title my-custom-font text-xl lg:text-base xl:text-2xl font-bold break-words whitespace-normal">
                 JS
               </h3>
               {/* Document Script Icon */}
@@ -103,7 +103,7 @@ const Skills = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-15 md:size-10 lg:size-6 inline-block text-base-100 shrink-0"
+                className="size-10 lg:size-6 inline-block text-base-100 shrink-0"
               >
                 <path
                   fillRule="evenodd"
@@ -123,8 +123,8 @@ const Skills = () => {
         {/* REPOSITORIES */}
         <div className="card card-border bg-base-200 py-1">
           <div className="card-body p-4 gap-4">
-            <div className="flex justify-between items-center w-full gap-2">
-              <h3 className="card-title my-custom-font text-2xl md:text-xl lg:text-base xl:text-2xl font-bold break-words whitespace-normal">
+            <div className="flex flex-col md:flex-row justify-between items-center w-full gap-2">
+              <h3 className="card-title my-custom-font text-xl lg:text-base xl:text-2xl font-bold break-words whitespace-normal">
                 REPOSITORIES
               </h3>
               {/* Folder Icon */}
@@ -132,7 +132,7 @@ const Skills = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-15 md:size-10 lg:size-6 inline-block text-base-100 shrink-0"
+                className="size-10 lg:size-6 inline-block text-base-100 shrink-0"
               >
                 <path d="M5.507 4.048A3 3 0 0 1 7.785 3h8.43a3 3 0 0 1 2.278 1.048l1.722 2.008A4.533 4.533 0 0 0 19.5 6h-15c-.243 0-.482.02-.715.056l1.722-2.008Z" />
                 <path
@@ -153,8 +153,8 @@ const Skills = () => {
         {/* MARKETING EMAILS */}
         <div className="card card-border bg-base-200 py-1">
           <div className="card-body p-4 gap-4">
-            <div className="flex justify-between items-center w-full gap-2">
-              <h3 className="card-title my-custom-font text-2xl md:text-base lg:text-sm xl:text-2xl font-bold break-words whitespace-normal">
+            <div className="flex flex-col md:flex-row justify-between items-center w-full gap-2">
+              <h3 className="card-title my-custom-font text-xl md:text-base lg:text-sm xl:text-2xl font-bold break-words whitespace-normal">
                 MARKETING EMAILS
               </h3>
               {/* Envelope Icon */}
@@ -162,7 +162,7 @@ const Skills = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-15 md:size-10 lg:size-6 inline-block text-base-100 shrink-0"
+                className="size-10 lg:size-6 inline-block text-base-100 shrink-0"
               >
                 <path
                   fillRule="evenodd"
@@ -187,8 +187,8 @@ const Skills = () => {
         {/* UX/UI */}
         <div className="card card-border bg-base-200 py-1">
           <div className="card-body p-4 gap-4">
-            <div className="flex justify-between items-center w-full gap-2">
-              <h3 className="card-title my-custom-font text-2xl md:text-xl lg:text-base xl:text-2xl font-bold break-words whitespace-normal">
+            <div className="flex flex-col md:flex-row justify-between items-center w-full gap-2">
+              <h3 className="card-title my-custom-font text-xl md:text-base lg:text-sm xl:text-2xl font-bold break-words whitespace-normal">
                 UX/UI
               </h3>
               {/* Device/Layout Icon */}
@@ -196,7 +196,7 @@ const Skills = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-15 md:size-10 lg:size-6 inline-block text-base-100 shrink-0"
+                className="size-10 lg:size-6 inline-block text-base-100 shrink-0"
               >
                 <path
                   fillRule="evenodd"
@@ -216,8 +216,8 @@ const Skills = () => {
         {/* CI */}
         <div className="card card-border bg-base-200 py-1">
           <div className="card-body p-4 gap-4">
-            <div className="flex justify-between items-center w-full gap-2">
-              <h3 className="card-title my-custom-font text-2xl md:text-base xl:text-2xl font-bold break-words whitespace-normal">
+            <div className="flex flex-col md:flex-row justify-between items-center w-full gap-2">
+              <h3 className="card-title my-custom-font text-xl md:text-base lg:text-sm xl:text-2xl font-bold break-words whitespace-normal">
                 CI
               </h3>
               {/* Brand Tag / Sparkle Icon */}
@@ -225,7 +225,7 @@ const Skills = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="size-15 md:size-10 lg:size-6 inline-block text-base-100 shrink-0"
+                className="size-10 lg:size-6 inline-block text-base-100 shrink-0"
               >
                 <path
                   fillRule="evenodd"
@@ -241,6 +241,7 @@ const Skills = () => {
             ></progress>
           </div>
         </div>
+        <hr className="col-span-2 border-t-4 border-dotted border-secondary hidden md:block" />
       </div>
     </div>
   );

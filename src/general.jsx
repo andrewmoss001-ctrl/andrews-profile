@@ -17,7 +17,7 @@ const General = () => {
         <div className="card card-border text-base-100">
           <div className="card-body p-4 text-left">
             <div className="flex justify-between items-center w-full gap-2 mb-1 text-base-100">
-              <h3 className="card-title my-custom-font text-sm sm:text-xl md:text-base lg:text-sm xl:text-xl font-bold break-words whitespace-normal">
+              <h3 className="card-title my-custom-font uppercase text-sm sm:text-xl md:text-base lg:text-sm xl:text-xl font-bold break-words whitespace-normal">
                 Nationality
               </h3>
               {/* Globe Icon */}
@@ -42,7 +42,7 @@ const General = () => {
         <div className="card card-border text-base-100">
           <div className="card-body p-4 text-left">
             <div className="flex justify-between items-center w-full gap-2 mb-1">
-              <h3 className="card-title my-custom-font text-sm sm:text-xl md:text-base lg:text-sm xl:text-xl font-bold break-words whitespace-normal">
+              <h3 className="card-title my-custom-font uppercase text-sm sm:text-xl md:text-base lg:text-sm xl:text-xl font-bold leading-tight break-words whitespace-normal">
                 DOB
               </h3>
               {/* Calendar Icon */}
@@ -68,7 +68,7 @@ const General = () => {
         <div className="card card-border">
           <div className="card-body p-4 text-left text-base-100">
             <div className="flex justify-between items-center w-full gap-2 mb-1">
-              <h3 className="card-title my-custom-font text-sm sm:text-xl md:text-base lg:text-sm xl:text-xl font-bold leading-tight break-words whitespace-normal">
+              <h3 className="card-title my-custom-font uppercase text-sm sm:text-xl md:text-base lg:text-sm xl:text-xl font-bold leading-tight break-words whitespace-normal">
                 Spoken Languages
               </h3>
               {/* Chat Bubble Icon */}
@@ -97,7 +97,7 @@ const General = () => {
         <div className="card card-border">
           <div className="card-body p-4 text-left text-base-100">
             <div className="flex justify-between items-center w-full gap-2 mb-1">
-              <h3 className="card-title my-custom-font text-sm sm:text-xl md:text-base lg:text-sm xl:text-xl font-bold break-words whitespace-normal">
+              <h3 className="card-title my-custom-font uppercase text-sm sm:text-xl md:text-base lg:text-sm xl:text-xl font-bold break-words whitespace-normal">
                 Schooling
               </h3>
               {/* Building/School Icon */}
@@ -128,7 +128,7 @@ const General = () => {
         <div className="card card-border text-base-100 col-span-2">
           <div className="card-body p-4 text-left">
             <div className="flex justify-between items-center w-full gap-2 mb-1">
-              <h3 className="card-title my-custom-font text-sm sm:text-xl md:text-base lg:text-sm xl:text-xl font-bold leading-tight break-words whitespace-normal">
+              <h3 className="card-title my-custom-font uppercase text-sm sm:text-xl md:text-base lg:text-sm xl:text-xl font-bold leading-tight break-words whitespace-normal">
                 Tertiary Education
               </h3>
               {/* Graduation Cap Icon */}
@@ -146,7 +146,7 @@ const General = () => {
             <p className="max-w-xs general-font">
               Graphic Design BA - Incomplete
             </p>
-            <h3 className="card-title my-custom-font text-sm sm:text-xl md:text-base xl:text-xl font-bold break-words whitespace-normal">
+            <h3 className="card-title my-custom-font uppercase text-sm sm:text-xl md:text-base lg:text-sm xl:text-xl font-bold leading-tight break-words whitespace-normal">
               Certificates
             </h3>
             <p className="general-font">
@@ -156,7 +156,21 @@ const General = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                JavaScript Certificate - Completed 2026 
+                JavaScript Certificate - 2026 
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-2">
+                <path fillRule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1Zm-.75 10.25a.75.75 0 0 0 1.5 0V6.56l1.22 1.22a.75.75 0 1 0 1.06-1.06l-2.5-2.5a.75.75 0 0 0-1.06 0l-2.5 2.5a.75.75 0 0 0 1.06 1.06l1.22-1.22v4.69Z" clipRule="evenodd" />
+                </svg>
+
+              </a>
+              </p>
+              <p className="general-font">
+              <a
+                href="https://scrimba.com/learn-html-and-css-c0p;cert24zAwPPowYU1QAbsMfBKqdo6k4isd9s3mKn4G"
+                className="no-underline link hover:text-secondary hover:opacity-80 transition-all"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                HTML5/CSS3 Certificate - 2026 
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-2">
                 <path fillRule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1Zm-.75 10.25a.75.75 0 0 0 1.5 0V6.56l1.22 1.22a.75.75 0 1 0 1.06-1.06l-2.5-2.5a.75.75 0 0 0-1.06 0l-2.5 2.5a.75.75 0 0 0 1.06 1.06l1.22-1.22v4.69Z" clipRule="evenodd" />
                 </svg>
@@ -170,7 +184,7 @@ const General = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  FrontEnd Dev Certificate - In Progress
+                  FrontEnd Dev Certificate - In Progress / 27%
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-2">
                     <path fillRule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1Zm-.75 10.25a.75.75 0 0 0 1.5 0V6.56l1.22 1.22a.75.75 0 1 0 1.06-1.06l-2.5-2.5a.75.75 0 0 0-1.06 0l-2.5 2.5a.75.75 0 0 0 1.06 1.06l1.22-1.22v4.69Z" clipRule="evenodd" />
                     </svg>
