@@ -184,7 +184,20 @@ const General = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  FrontEnd Dev Certificate - In Progress / 27%
+                  FrontEnd Dev Certificate - In Progress / 32%
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-2">
+                    <path fillRule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1Zm-.75 10.25a.75.75 0 0 0 1.5 0V6.56l1.22 1.22a.75.75 0 1 0 1.06-1.06l-2.5-2.5a.75.75 0 0 0-1.06 0l-2.5 2.5a.75.75 0 0 0 1.06 1.06l1.22-1.22v4.69Z" clipRule="evenodd" />
+                    </svg>
+                </a>
+              </p>
+              <p className="general-font">
+                <a
+                  href="https://scrimba.com/@andrewmoss001-ctrl:certs;cert24zAwPPowYU1QAbsMfBKqdpb3C1QntdKnZB32"
+                  className="no-underline link hover:text-secondary hover:opacity-80 transition-all"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Full Stack Developer Certificate - In Progress / 21%
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-2">
                     <path fillRule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1Zm-.75 10.25a.75.75 0 0 0 1.5 0V6.56l1.22 1.22a.75.75 0 1 0 1.06-1.06l-2.5-2.5a.75.75 0 0 0-1.06 0l-2.5 2.5a.75.75 0 0 0 1.06 1.06l1.22-1.22v4.69Z" clipRule="evenodd" />
                     </svg>
