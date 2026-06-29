@@ -34,11 +34,11 @@ const Header = () => {
 
           {/* Content Block */}
           <div className="flex flex-col items-start text-left">
-            <h1 className="text-4xl my-custom-font uppercase lg:text-5xlfont-bold text-secondary">
+            <h1 className="text-4xl my-custom-font uppercase lg:text-5xl font-bold text-secondary">
               I'm Andrew Moss.
             </h1>
 
-            <p className="py-4 general-font text-base-100 max-w-4xl text-xl leading text-left -relaxed">
+            <p className="pb-4 general-font text-base-100 max-w-4xl text- leading text-left -relaxed">
               Senior Graphic/Web Designer and FrontEnd Developer with a distinguished {timeString}{" "}
               track record in both the advertising and gaming industries.
               Possessing a comprehensive skillset encompassing advertising

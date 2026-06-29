@@ -17,7 +17,7 @@ const Projects = ({ className = "" }) => {
       <p className="text-4xl my-custom-font uppercase font-bold uppercase text-base-content pb-10 pt-0">
         Recent Accomplishments
       </p>
-      <div className="flex flex-col md:flex-row gap-6 justify-center">
+      <div className="flex flex-col md:flex-row gap-6 xl:w-[95%] m-auto justify-center">
         <div className="card bg-base-content w-[95%] m-auto shadow-sm">
 
           <figure>

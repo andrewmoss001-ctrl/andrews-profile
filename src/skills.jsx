@@ -241,7 +241,6 @@ const Skills = () => {
             ></progress>
           </div>
         </div>
-        <hr className="col-span-2 border-t-4 border-dotted border-secondary hidden md:block" />
       </div>
     </div>
   );

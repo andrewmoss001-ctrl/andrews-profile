@@ -99,4 +99,7 @@ hr {
 .general-font {
   font-family: 'Cutive Mono', monospace;
 }
+h1 {
+  font-size: 3rem;
+}
 
